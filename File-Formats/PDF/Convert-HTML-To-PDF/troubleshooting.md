@@ -22,7 +22,7 @@ documentation: UG
 <tr>
 <th style="font-size:14px" width="100px">Solution</th>
 <td>
-Ensure that the runtimes folder is copied properly to bin folder of the application from NuGet package location.
+Ensure that the runtime folder is copied properly to bin folder of the application from NuGet package location.
 <br/><br/>
 Please refer to the below screenshot,
 <br/><br/>
@@ -39,7 +39,7 @@ Ex path: <i>C:\HtmlConversion\HTMl-to-PDF\HTMl-to-PDF\bin\Debug\net7.0\runtimes\
 //Initialize the HTML to PDF converter.
 HtmlToPdfConverter htmlConverter = new HtmlToPdfConverter();
 BlinkConverterSettings blinkConverterSettings = new BlinkConverterSettings();
-//Set Blink the binaries path.
+//Set the Blink binaries path.
 blinkConverterSettings.BlinkPath = @"C:/HtmlConversion/BlinkBinaries/";
 //Assign the Blink converter settings to HTML converter.
 htmlConverter.ConverterSettings = blinkConverterSettings;
@@ -117,7 +117,7 @@ document.Close(true);
 <tr>
 <th style="font-size:14px" width="100px">Reason
 </th>
-<td>The exception may occur in the Linux CentOS/Docker environment due to the Chrome browser unable to launch from sandbox mode in CentOS.
+<td>The exception may occur in the Linux CentOS/Docker environment due to the Chrome browser being unable to launch from sandbox mode in CentOS.
 </td>
 </tr>
 <tr>
